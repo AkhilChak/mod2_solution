@@ -4,7 +4,14 @@
   background-color: #FFCDD2; 
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Raleway:ital,wght@0,700;1,400&display=swap');
+@font-face {
+  font-family: Bangers;
+  src: url(Bangers-Regular.ttf);
+}
+@font-face {
+  font-family: Raleway;
+  src: url(Roboto-Regular.ttf);
+}
 h1 {
   margin-bottom: 15px;
   text-align: center;
@@ -14,16 +21,7 @@ div{
   background-color: #F44336; 
 }
 
-p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-}
+
 
 /* Simple Responsive Framework. */
 .row {
@@ -33,7 +31,7 @@ p {
 #head1 {
   background-color: #FFC107;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
   border-left: 1px solid #000000;
   font-weight: bold;
   border-bottom: 1px solid #000000;
@@ -46,7 +44,7 @@ p {
 #head2 {
   background-color: #FFC107;
   border-left: 1px solid #000000;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
   border-bottom: 1px solid #000000;
   width: 100px;
@@ -59,7 +57,7 @@ p {
 #head3 {
   background-color: #FFC107;
   border-left: 1px solid #000000;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
   border-bottom: 1px solid #000000;
   width: 100px;
