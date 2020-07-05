@@ -19,7 +19,6 @@ h1 {
 }
 div{
   background-color: #F44336; 
-  margin: 20px;
 }
 
 
@@ -107,6 +106,7 @@ div{
   }
   .col-lg-4 {
     width: 33.33%;
+    padding: 20px;
   }
   .col-lg-5 {
     width: 41.66%;
